@@ -1,0 +1,60 @@
+.main-content {
+  padding: 30px;
+  position: relative;
+}
+.lines {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+.lines .item {
+  list-style-type: none;
+  display: inline-block;
+  border: solid 1px black;
+  width: 35px;
+  height: 35px;
+  font-size: 39px;
+}
+.lines .item.bad-road {
+  background-color: bisque;
+}
+.bad-eggs {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.bad-eggs.bad-egg1 {
+  background-color: #37b9ff;
+}
+.bad-eggs.bad-egg2 {
+  background-color: #3281ff;
+}
+.bad-eggs.bad-egg3 {
+  background-color: #475bff;
+}
+.guarders {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+}
+.guarders.guarder-leaf {
+  background-color: #52BD4A;
+}
+.guarders.guarder-leaf .guarder-weapon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #bd8a18;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.guarders.guarder-anchor {
+  background-color: #12e3eb;
+}
